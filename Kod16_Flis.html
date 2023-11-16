@@ -1,0 +1,28 @@
+<TD><br> <b> Kod HTML</b><br> <textarea cols="100" rows="50">
+<!DOCTYPE html>
+<head>
+<title> proste obliczenia</title>
+<meta charst="utf-8">
+</head>
+<body bgcolor="#DC143C">
+<div style="color:purple;font-size:50px;">
+<script language="JavaScript">
+var liczba1=prompt("podaj a=","");
+var a_flis=parseFloat(liczba1);
+var liczba2=prompt("podaj b=","");
+var b_flis=parseFloat(liczba2);
+var a3=a_flis*a_flis*a_flis;
+var ab1=3*a_flis*a_flis*b_flis;
+var ab2=3*a_flis*b_flis*b_flis;
+var b3=b_flis*b_flis*b_flis;
+var wynik=a_flis*a_flis*a_flis+3*a_flis*a_flis*b_flis+3*a_flis*b_flis*b_flis+b_flis*b_flis*b_flis;
+document.write("a="+a_flis+"<br>");
+document.write("b="+b_flis+"<br>");
+document.write("("+a_flis+"+"+b_flis+")^3=");
+document.write(a_flis+"^"+"3+3*"+a_flis+"^2*"+b_flis+"+3*"+a_flis+"*"+b_flis+"^2+"+b_flis+"^"+"3"+"="+a3+"+"+ab1+"+"+ab2+"+"+b3+"="+wynik+" ");
+
+</script>
+</script>
+</div>
+</body>
+</textarea> </TD>
